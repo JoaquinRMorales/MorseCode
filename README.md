@@ -6,7 +6,7 @@ This program translate a morse code to letters in Go Language.
 It will show you a table with the morse code with which it is set.
 
 EXAMPLE
- INPUT  ...././.-../.-../---//   OUTPUT   hello 
+ /nINPUT  ...././.-../.-../---//   OUTPUT   hello 
  INPUT  ...././.-../.-../---     OUTPUT   hello 
  INPUT  /...././.-../.-../---    OUTPUT   hello
  INPUT  ...././/.-../.-../---    OUTPUT   he llo
