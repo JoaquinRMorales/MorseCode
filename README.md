@@ -13,4 +13,4 @@ INPUT  ...././/.-../.-../---    OUTPUT   he llo
 
 I created this just for fun and practice
 
-Develoved by Joaquin Morales
+Develoved by Joaquin Morales 
