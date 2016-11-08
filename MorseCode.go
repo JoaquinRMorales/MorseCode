@@ -1,4 +1,4 @@
-package main
+package Morse
 
 import (
 	"bufio"
@@ -153,19 +153,13 @@ func Identificator(str string) string {
 }
 
 func Morse() {
-	println("A .-   J .---   S ...   1 .----")
-	println("B -... K -.-    T -     2 ..---")
-	println("C -.-. L .-..   U ..-   3 ...--")
-	println("D -..  M --     V ...-  4 ....-")
-	println("E .    N -.     W .--   5 .....")
-	println("F ..-. O ---    X -..-  6 -....")
-	println("G --.  P .--.   Y -.--  7 --...")
-	println("H .... Q --.-   Z --..  8 ---..")
-	println("I ..   R .-.    0 ----- 9 ----.")
-}
-
-func main() {
-
-	Morse()
-	print(Identificator(Scan("/ is letter ; // finish word  ")))
+	fmt.Println("A .-   J .---   S ...   1 .----")
+	fmt.Println("B -... K -.-    T -     2 ..---")
+	fmt.Println("C -.-. L .-..   U ..-   3 ...--")
+	fmt.Println("D -..  M --     V ...-  4 ....-")
+	fmt.Println("E .    N -.     W .--   5 .....")
+	fmt.Println("F ..-. O ---    X -..-  6 -....")
+	fmt.Println("G --.  P .--.   Y -.--  7 --...")
+	fmt.Println("H .... Q --.-   Z --..  8 ---..")
+	fmt.Println("I ..   R .-.    0 ----- 9 ----.")
 }
